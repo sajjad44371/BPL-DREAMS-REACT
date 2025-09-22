@@ -1,26 +1,68 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
 import Players from "./components/Players/Players";
+import Selected from "./components/SelectedPlayers/Selected";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 const fetchPlayersApi = async () => {
-  const res = await fetch("/players.json");
+  const res = await fetch("/public/players.json");
   return res.json();
 };
+const promisePlayers = fetchPlayersApi();
 
 function App() {
-  const promisePlayers = fetchPlayersApi();
+  const [toggle, setToggle] = useState(true);
+  const [availableBalance, setAvailableBalance] = useState(10000000);
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
+
+  const handleToggle = () => {
+    setToggle((prev) => !prev);
+  };
+
+  const handleRemovePlayer = (player) => {
+    const filteredPlayer = selectedPlayers.filter(
+      (delPlayer) => delPlayer.id !== player.id
+    );
+    setSelectedPlayers(filteredPlayer);
+    setAvailableBalance(availableBalance + player.price);
+  };
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar availableBalance={availableBalance}></Navbar>
 
       <Banner></Banner>
 
-      <Suspense fallback={<h3>Players data loading</h3>}>
-        <Players promisePlayers={promisePlayers}></Players>
-      </Suspense>
+      {toggle === true ? (
+        <Suspense fallback={<h3>Players data loading</h3>}>
+          <Players
+            availableBalance={availableBalance}
+            setAvailableBalance={setAvailableBalance}
+            promisePlayers={promisePlayers}
+            handleToggle={handleToggle}
+            selectedPlayers={selectedPlayers}
+            setSelectedPlayers={setSelectedPlayers}
+          ></Players>
+        </Suspense>
+      ) : (
+        <Selected
+          selectedPlayers={selectedPlayers}
+          handleToggle={handleToggle}
+          handleRemovePlayer={handleRemovePlayer}
+        ></Selected>
+      )}
+
+      {/* tost  */}
+      <ToastContainer></ToastContainer>
+
+      <Newsletter></Newsletter>
+
+      <Footer></Footer>
     </>
   );
 }

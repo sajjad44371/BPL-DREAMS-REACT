@@ -5,10 +5,10 @@
     "country": "India",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 9.8,
     "price": 1500000,
-    "img": "https://i.ibb.co/LhkLVqbX/virat.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 2,
@@ -16,10 +16,10 @@
     "country": "India",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 9.5,
     "price": 1400000,
-    "img": "https://i.ibb.co/dJHFLZj4/rohit.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "bowlingStyle": "Right-Arm Medium-Fast",
     "rating": 8.7,
     "price": 1300000,
-    "img": "https://i.ibb.co/1GTRVVGv/hardik.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "bowlingStyle": "Right-Arm Fast",
     "rating": 9.6,
     "price": 1200000,
-    "img": "https://i.ibb.co/zHZ4CjnY/bumrah.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 5,
@@ -49,10 +49,10 @@
     "country": "Pakistan",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 9.7,
     "price": 1450000,
-    "img": "https://i.ibb.co/GQJprn9v/babar.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "bowlingStyle": "Left-Arm Fast",
     "rating": 9.3,
     "price": 1350000,
-    "img": "https://i.ibb.co/yFbR9zYH/shaheen.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "bowlingStyle": "Left-Arm Orthodox",
     "rating": 9.1,
     "price": 1400000,
-    "img": "https://i.ibb.co/fVD3TVMk/shakib.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 8,
@@ -82,10 +82,10 @@
     "country": "Bangladesh",
     "role": "Batsman",
     "battingStyle": "Left-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 8.5,
     "price": 1100000,
-    "img": "https://i.ibb.co/spmRM6p1/tamim.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "bowlingStyle": "Left-Arm Medium-Fast",
     "rating": 8.9,
     "price": 1250000,
-    "img": "https://i.ibb.co/DDLFbLys/fizz.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "bowlingStyle": "Right-Arm Leg Spin",
     "rating": 9.4,
     "price": 1500000,
-    "img": "https://i.ibb.co/vf8p7v3/smith.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 11,
@@ -115,10 +115,10 @@
     "country": "Australia",
     "role": "Batsman",
     "battingStyle": "Left-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 9.2,
     "price": 1400000,
-    "img": "https://i.ibb.co/hRkJm8SQ/warner.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "bowlingStyle": "Right-Arm Fast",
     "rating": 9.0,
     "price": 1350000,
-    "img": "https://i.ibb.co/WNzjmnvV/cummins.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "bowlingStyle": "Right-Arm Off Spin",
     "rating": 9.3,
     "price": 1450000,
-    "img": "https://i.ibb.co/1GxCjN99/root.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "bowlingStyle": "Right-Arm Medium",
     "rating": 9.4,
     "price": 1500000,
-    "img": "https://example.com/images/ben-stokes.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 15,
@@ -159,10 +159,10 @@
     "country": "England",
     "role": "Wicket-Keeper",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 9.0,
     "price": 1350000,
-    "img": "https://example.com/images/jos-buttler.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "bowlingStyle": "Right-Arm Fast",
     "rating": 9.1,
     "price": 1300000,
-    "img": "https://example.com/images/kagiso-rabada.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 17,
@@ -181,10 +181,10 @@
     "country": "South Africa",
     "role": "Wicket-Keeper",
     "battingStyle": "Left-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 9.2,
     "price": 1400000,
-    "img": "https://example.com/images/quinton-de-kock.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 18,
@@ -192,10 +192,10 @@
     "country": "South Africa",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 8.8,
     "price": 1350000,
-    "img": "https://example.com/images/faf-du-plessis.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "bowlingStyle": "Right-Arm Off Spin",
     "rating": 9.5,
     "price": 1450000,
-    "img": "https://example.com/images/kane-williamson.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "bowlingStyle": "Left-Arm Fast",
     "rating": 9.2,
     "price": 1300000,
-    "img": "https://example.com/images/trent-boult.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 21,
@@ -225,10 +225,10 @@
     "country": "New Zealand",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 8.7,
     "price": 1200000,
-    "img": "https://example.com/images/ross-taylor.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
     "bowlingStyle": "Right-Arm Leg Spin",
     "rating": 8.9,
     "price": 1250000,
-    "img": "https://example.com/images/shadab-khan.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 23,
@@ -247,10 +247,10 @@
     "country": "Bangladesh",
     "role": "Wicket-Keeper",
     "battingStyle": "Right-Hand-Bat",
-    "bowlingStyle": null,
+    "bowlingStyle": "N/A",
     "rating": 8.6,
     "price": 1100000,
-    "img": "https://example.com/images/litton-das.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   },
   {
     "id": 24,
@@ -261,6 +261,6 @@
     "bowlingStyle": "Right-Arm Off Spin",
     "rating": 9.0,
     "price": 1400000,
-    "img": "https://example.com/images/glenn-maxwell.jpg"
+    "img": "https://i.ibb.co.com/7t887H2d/images.jpg"
   }
 ]

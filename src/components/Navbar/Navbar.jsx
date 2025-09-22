@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import coin from "../../assets/coin.png";
 
-const Navbar = () => {
+const Navbar = ({ availableBalance }) => {
   return (
     <div className="navbar max-w-7xl mx-auto">
       <div className="navbar-start">
@@ -26,24 +26,19 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2"
+            className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 bg-black text-white"
           >
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <a>Fixtures</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Teams</a>
+            </li>
+            <li>
+              <a>Schedules</a>
             </li>
           </ul>
         </div>
@@ -51,8 +46,8 @@ const Navbar = () => {
           <img className="w-[50px] h-[50px]" src={logo} alt="" />
         </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 flex justify-between items-center">
+      <div className="navbar-end  lg:flex">
+        <ul className="menu menu-horizontal hidden px-1 lg:flex justify-between items-center">
           <li>
             <a>Home</a>
           </li>
@@ -65,12 +60,12 @@ const Navbar = () => {
           <li>
             <a>Schedules</a>
           </li>
-          <a className="btn rounded-xl bg-white">
-            <span>6000000000</span>
-            <span>Coin</span>
-            <img src={coin} alt="" />
-          </a>
         </ul>
+        <a className="btn rounded-xl bg-white">
+          <span>{availableBalance}</span>
+          <span>Coin</span>
+          <img src={coin} alt="" />
+        </a>
       </div>
     </div>
   );
