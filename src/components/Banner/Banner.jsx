@@ -5,7 +5,7 @@ import bannerBg from "../../assets/bg-shadow.png";
 const Banner = () => {
   return (
     <div
-      className="mt-6 max-w-7xl mx-auto flex justify-center items-center bg-center bg-cover bg-[#131313] rounded-xl px-2.5 md:px-0"
+      className="mt-6 max-w-7xl mx-auto flex justify-center items-center bg-center bg-cover bg-[#131313] rounded-xl px-2.5 md:px-0 mb-[200px]"
       style={{ backgroundImage: `url(${bannerBg})` }}
     >
       <div className="py-[64px] text-center">

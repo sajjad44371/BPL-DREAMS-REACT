@@ -3,7 +3,7 @@ import bgImg from "../../assets/bg-shadow.png";
 
 const Newsletter = () => {
   return (
-    <div className="relative flex justify-center">
+    <div className="relative flex justify-center z-40">
       <div className="max-w-7xl mx-auto w-full rounded-xl border border-red-300 absolute -bottom-[200px]">
         <div
           className="bg-center bg-cover m-6 bg-white rounded-xl"

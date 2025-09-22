@@ -8,6 +8,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Footer from "./components/Footer/Footer";
+import Loader from "./components/Loader/Loader";
 
 const fetchPlayersApi = async () => {
   const res = await fetch("/public/players.json");
@@ -39,7 +40,7 @@ function App() {
       <Banner></Banner>
 
       {toggle === true ? (
-        <Suspense fallback={<h3>Players data loading</h3>}>
+        <Suspense fallback={<Loader></Loader>}>
           <Players
             availableBalance={availableBalance}
             setAvailableBalance={setAvailableBalance}
